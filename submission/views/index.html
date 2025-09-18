@@ -1,0 +1,77 @@
+<!-- Link for Docker site: http://localhost:8080/views/home.html -->
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Personal Website</title>
+      <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+        crossorigin="anonymous"
+      />
+      <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      />
+</head>
+<body>
+  <!-- Your content goes here -->
+    <nav class="navbar navbar-expand navbar-light" style="background-color: #2ca6b8;">
+        <div class="container-fluid d-flex align-items-center">
+            <a class="navbar-brand me-3" href="#">Keira's Portfolio</a>
+            <ul class="navbar-nav d-flex flex-row">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">Projects</a>
+                </li>
+            </ul>
+            <img src="../resources/img/logo.jpg" alt="Logo" class="ms-auto" style="width:40px; height:40px; object-fit:cover;">
+        </div>
+    </nav>
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <!-- LEFT: Large picture -->
+            <div class="col-md-6">
+                <img src="../resources/img/homeImage.jpg" 
+                    alt="Keira's Face" 
+                    class="img-fluid rounded shadow">
+            </div>
+
+            <!-- RIGHT: Description -->
+            <div class="col-md-6">
+                <h2>About Me!</h2>
+                <p>
+                    My name is Keira Wagstaff! I am currently a sophomore at CU Boulder majoring in Computer Science and minoring in Business!
+                    I grew up going to school in small-town western Kansas, but also lived part time in southern Denver thanks to split parents.
+                    I grew up loving any type of puzzle or problem solving that presented itself, which led me to choose Computer Science!
+                </p>
+                <a href="resume.html" class="btn btn-secondary">Resume</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer class="bg-dark text-white py-1 fixed-bottom">
+    <div class="container text-center">        
+        <!-- Links -->
+        <a href="https://github.com/keirawagstaff" target="_blank" class="text-white me-3">
+        <i class="bi bi-github" style="font-size:1.5rem;"></i>
+        </a>
+        <a href="https://linkedin.com/in/keirawagstaff" target="_blank" class="text-white me-3">
+        <i class="bi bi-linkedin" style="font-size:1.5rem;"></i>
+        </a>
+        <a href="mailto:keirawagstaff@gmail.com" class="text-light me-3">
+        <i class="bi bi-envelope-fill fs-3"></i>
+        </a>
+    </div>
+</footer>
+
+</html>
